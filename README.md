@@ -8,8 +8,34 @@
 [![Vite](https://img.shields.io/badge/Vite-5.2-purple.svg)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Tests Passing](https://img.shields.io/badge/tests-100%25%20passing-brightgreen.svg)](#9-verification--test-results)
 
-An institutional-grade, full-stack financial analytics and machine-learning stock research platform supporting both **Indian (NSE / BSE)** and **United States (NASDAQ / NYSE)** markets.
+An institutional-grade, full-stack financial technology and machine-learning stock research platform supporting both **Indian (NSE / BSE)** and **United States (NASDAQ / NYSE)** equity markets.
+
+---
+
+## 📌 Project Links & Quick Access
+
+| Resource | Link / Access Point | Description |
+| :--- | :--- | :--- |
+| 🌐 **Live Web Application** | **[Launch MarketMind AI](https://marketmind-ai.vercel.app)** *(or `http://localhost:3000`)* | Full interactive web application with 16 analytical views |
+| 📚 **Interactive Swagger API** | **[FastAPI Swagger Docs](http://127.0.0.1:8000/docs)** | Interactive REST documentation and live schema tester |
+| 💻 **GitHub Repository** | **[github.com/vmohan/marketmind-ai](https://github.com/vmohan/marketmind-ai)** | Source code, CI workflows, and documentation |
+| 🐳 **Docker Hub / Compose** | `docker-compose up --build` | One-command full-stack containerized local setup |
+
+> 💡 **For Recruiters & Evaluators:** This repository contains a fully working full-stack application that runs immediately with **zero external API keys or paid subscriptions required** via its built-in deterministic historical market data engine.
+
+---
+
+## 🏆 Resume Summary & Key Engineering Highlights
+
+*Feel free to reference these accomplishments in technical interviews and resume project sections:*
+
+- **Leakage-Free Time-Series Machine Learning**: Designed and trained walk-forward forecasting models (Ridge, Random Forest, Gradient Boosting) for $1\text{D}$, $5\text{D}$, $7\text{D}$, $30\text{D}$, and $90\text{D}$ horizons using strictly historical lag features, verified against a Naive Persistence benchmark with empirical $80\%$ and $95\%$ prediction intervals.
+- **Institutional Trading Terminal UI/UX**: Engineered a responsive React 18 + TypeScript frontend with TradingView Lightweight Charts, multi-timeframe candlestick rendering, live volume distributions, and 16 modular analytical views.
+- **Quantitative Analytics & Risk Engine**: Implemented mathematical indicator libraries (Wilder 14-period RSI, MACD $12/26/9$, Bollinger Bands $20/2\sigma$, ATR, Pivot Points), 4-pillar financial health scoring ($0\text{--}100$), and portfolio risk modeling (Historical VaR $95\%$, Expected Shortfall CVaR, Beta, Sharpe, Sortino).
+- **Realistic Backtesting Engine**: Built a multi-strategy backtesting simulator with transaction friction modeling ($0.05\%$ slippage, $0.1\%$ broker commission) to prevent unrealizable historical returns.
+- **Clean Architecture & Scalability**: Developed an asynchronous FastAPI backend utilizing SQLAlchemy ORM with SQLite/PostgreSQL support, factory-pattern provider abstraction, and comprehensive unit/service test suites ($100\%$ verified).
 
 ---
 
