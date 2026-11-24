@@ -1,6 +1,6 @@
 # MarketMind AI — Intelligent Stock Analysis & Prediction Platform
 
-[![CI Pipeline](https://github.com/vmohan/marketmind-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/vmohan/marketmind-ai/actions)
+[![CI Pipeline](https://github.com/mohan2-hash/marketmind-Ai/actions/workflows/ci.yml/badge.svg)](https://github.com/mohan2-hash/marketmind-Ai/actions)
 [![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-teal.svg)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB.svg)](https://react.dev/)
@@ -20,7 +20,7 @@ An institutional-grade, full-stack financial technology and machine-learning sto
 | :--- | :--- | :--- |
 | 🌐 **Live Web Application** | **[Launch MarketMind AI](https://marketmind-ai.vercel.app)** *(or `http://localhost:3000`)* | Full interactive web application with 16 analytical views |
 | 📚 **Interactive Swagger API** | **[FastAPI Swagger Docs](http://127.0.0.1:8000/docs)** | Interactive REST documentation and live schema tester |
-| 💻 **GitHub Repository** | **[github.com/vmohan/marketmind-ai](https://github.com/vmohan/marketmind-ai)** | Source code, CI workflows, and documentation |
+| 💻 **GitHub Repository** | **[github.com/mohan2-hash/marketmind-Ai](https://github.com/mohan2-hash/marketmind-Ai)** | Source code, CI workflows, and documentation |
 | 🐳 **Docker Hub / Compose** | `docker-compose up --build` | One-command full-stack containerized local setup |
 
 > 💡 **For Recruiters & Evaluators:** This repository contains a fully working full-stack application that runs immediately with **zero external API keys or paid subscriptions required** via its built-in deterministic historical market data engine.
@@ -178,8 +178,8 @@ Features are computed sequentially using only past observations:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/vmohan/marketmind-ai.git
-cd marketmind-ai
+git clone https://github.com/mohan2-hash/marketmind-Ai.git
+cd marketmind-Ai
 ```
 
 ### 2. Backend Setup
